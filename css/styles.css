@@ -1,0 +1,29 @@
+/* ===================================== 
+   Grid Layout
+======================================== */
+
+.box{
+  width: 100%;
+  text-align:center;
+}
+
+#searchbar {
+  background-position: 10px 12px; /* Position the search icon */
+  background-repeat: no-repeat; /* Do not repeat the icon image */
+  width: 60%; /* Full-width */
+  font-size: 16px; /* Increase font-size */
+  padding: 12px 20px 12px 40px; /* Add some padding */
+  border: 1px solid #ddd; /* Add a grey border */
+  margin-bottom: 15px; /* Add some space below the input */
+  display: inline-block;
+}
+
+
+.gallery {
+    max-width: 840px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 200px);
+    grid-template-rows: repeat(auto-fit, 200px);
+    grid-gap: 10px 10px;
+    margin: auto;
+}
